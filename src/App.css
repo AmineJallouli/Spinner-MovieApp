@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between ;
+  font-size: 50px;
+}
+
+.footer input{
+  font-size: 50px;
+}
+
+.list{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.movie{
+  height: 450px;
+  width: 300px;
+  color: black;
+  border: 3px solid black;
+  overflow: hidden;
+  margin-bottom: 50px;
+  margin-right: 70px;
+  margin-left: 30px;
+}
+
+.movielist{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  width:300px;
+  height: 350px;
+}
+
+
+
+.name{
+  font-size: 14px;
+  text-align: center;
+}
+
+.display{
+  display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 375px;
+    /* margin-right: 500px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    z-index: 1;
+    position: absolute;
+    border: 3px solid black;
+    top: 720px;
+    background-color: rgb(255,255,255,0.8);
+    border-radius: 5px;
+
+}
+
+.display input{
+  width: 500px;
+  height: 40px;
+}
+
+.none{
+  display: none;
+}
+
+.addmovie{
+
+    height: 450px;
+    width: 300px;
+    color: black;
+    border: 3px solid black;
+    overflow: hidden;
+    align-items: center;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+.pls {
+  font-size: 270px;
+  padding-left: 50px;
+}
+
+.pls:hover{
+  cursor: pointer;
+}
+
+.display span{
+  font-weight: bolder;
+}
+
+.submit{
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
